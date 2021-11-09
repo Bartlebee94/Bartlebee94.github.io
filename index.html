@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="styles1.css">
   </head>
   <body>
-    <p>Is it Ethan's Birthday?</p>
+    <h1>Is it Ethan's Birthday?</h1>
+    <p>If you are like most people, you are probably wondering, is <bold>today</bold> Ethan's Birthday?</p>
+    <p>Wonder no more! with the technology of today you can simply click the button below to find out.</p>
+    <button id="btn">Click to find out</button>
 
-    <button id="myBtn">Click to find out</button>
-
-    <p><strong>Note:</strong> The addEventListener() method is not supported in Internet Explorer 8 and earlier versions.</p>
 
     <p id="demo"></p>
 
     <script>
     document.getElementById("btn").addEventListener("click", function() {
-      document.getElementById("demo").innerHTML = "Happy Birthday";
+      document.getElementById("demo").innerHTML = "Not today, 364 days left to Ethans Bday!";
     });
     </script>
 
