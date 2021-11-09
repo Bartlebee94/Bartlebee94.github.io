@@ -1,5 +1,4 @@
-let bday = "Happy Birthday Ethan!!";
 
-document.getElementById(ethan)addEventListener(onClick){
-  return bday
+document.getElementByClass(btn)addEventListener(onClick){
+  return "Happy Birthday Ethan!!!"
 };
