@@ -7,18 +7,20 @@
     <title>Simple website</title>
     <link rel="stylesheet" href="styles1.css">
   </head>
-  <body class="light-theme">
-    <h1>Birthday Detection Software</h1>
-    <p id="msg">is it Ethan's Bday?:</p>
-    <ul>
-      <li class="list">Ethan is a hell of a fellah!</li>
-      <li class="list">We like him!</li>
-      <li> Mostly..</li>
-    </ul>
-    <div>
-        <button class="btn">click me to find out</button>
-    </div>
+  <body>
+    <p>Is it Ethan's Birthday?</p>
+
+    <button id="myBtn">Click to find out</button>
+
+    <p><strong>Note:</strong> The addEventListener() method is not supported in Internet Explorer 8 and earlier versions.</p>
+
     <p id="demo"></p>
-    <script src="app1.js"></script>
-  </body>
-</html>
+
+    <script>
+    document.getElementById("myBtn").addEventListener("click", function() {
+      document.getElementById("demo").innerHTML = "Happy Birthday";
+    });
+    </script>
+
+    </body>
+    </html>
