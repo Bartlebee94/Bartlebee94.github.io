@@ -1,5 +1,2 @@
-
-
-document.getElementByClass(btn)addEventListener(onClick){
-  return "Happy Birthday Ethan!!!"
-};
+document.getElementById("myBtn").addEventListener("click", function() {
+  document.getElementById("demo").innerHTML = "Happy Birthday Ethan!!";
